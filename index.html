@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>我是精明的小卖家</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/ife31data.js"></script>
+</head>
+<body>
+    <main>
+        <div class="regionSelect">
+            <span>选择地区：</span>
+            <input type="checkbox" name="region" id="all_area">
+            <label for="all_area">所有地区</label>
+            <div class="region">
+                <input type="checkbox" name="region" id="north">
+                <label for="north">华北</label>
+                <input type="checkbox" name="region" id="south">
+                <label for="south">华南</label>
+                <input type="checkbox" name="region" id="east">
+                <label for="east">华东</label>
+            </div>
+        </div>
+        <div class="productSelect">
+            <span>选择产品：</span>
+            <input type="checkbox" name="product" id="all_product">
+            <div class="product">
+                <label for="all_product">所有产品</label>
+                <input type="checkbox" name="product" id="mobilePhone">
+                <label for="mobilePhone">手机</label>
+                <input type="checkbox" name="product" id="toptip">
+                <label for="toptip">笔记本</label>
+                <input type="checkbox" name="product" id="intelligenceSoundBox">
+                <label for="intelligenceSoundBox">智能音箱</label>
+            </div>
+        </div>
+        <div id="tableWrapper"></div>
+    </main>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>

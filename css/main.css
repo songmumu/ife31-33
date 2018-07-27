@@ -1,0 +1,30 @@
+.regionSelect, .productSelect {
+    padding: 10px 20px;
+}
+
+.regionSelect input, .productSelect input{
+    margin-left: 15px;
+}
+
+.region, .product {
+    display: inline-block;
+}
+
+.saleTable {
+    border-collapse: collapse;
+    min-width: 800px;
+}
+
+.saleTable th,.saleTable td {
+    border: 1px solid gray;
+    text-align: center;
+    padding: 7px 10px;
+}
+
+.saleTable tr:nth-child(2n) {
+    background: rgba(81, 255, 0, 0.192);
+}
+
+.saleTable thead tr:nth-child(2n) {
+    background: yellow;
+}
